@@ -2,7 +2,6 @@
 int main(){
     int a=10;
     int b=5;
-    int add=a+b;
-    printf("addition is=%d",add);
+    printf("addition is=%d",a+b);
     return 0;
 }
