@@ -1,8 +1,11 @@
 #include<stdio.h>
 int main(){
-   int age;float height;
-   printf("enter your age and height");
-   scanf("%d,%f",&age,&height);//this is correct only if we enter the inputs separating with commas
-   printf("the age and height is %d and %.2f",age,height);
-   return 0;
+   int age;
+   char name;
+   char grade;
+   char op;
+printf("enter name age and grade of your ward:");
+scanf("%d,%c,%c%c",&age,&name,&grade,&op);
+printf("the age name and grade are %d %c %c%c",age,name,grade,op);// we'll learn to store our store multiple charcters as one string   using character array and strings later
+return 0;
 }
