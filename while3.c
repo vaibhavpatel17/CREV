@@ -1,11 +1,13 @@
-#include<stdio.h>
-int main(){
-    int i=0;
-while (i<=20){
-    i++;
-    if(i%2==0){
-        continue;
+    #include<stdio.h>
+    int main(){
+        int i=0;
+        while(i>=0){
+            i++;
+        if(i==7){
+            break; // selection statements must only come within loop or swith
+        }
+        printf("%d",i);
+    
     }
-    printf("%d",i);
-} 
-}
+    return 0;
+    }
