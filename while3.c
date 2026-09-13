@@ -1,13 +1,14 @@
     #include<stdio.h>
     int main(){
-        int i=0;
-        while(i>=0){
-            i++;
-        if(i==7){
-            break; // selection statements must only come within loop or swith
-        }
+        int i;
+        for (i=1;i<=20;i++){
+            if(i%3==0){
+                continue;
+            }
+            if(i==17){
+                break;
+            }
         printf("%d",i);
-    
-    }
-    return 0;
+        }
+        return 0;
     }
