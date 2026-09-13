@@ -1,20 +1,18 @@
-    #include<stdio.h>
-    int main(){
-        int i;
-        for(i=1;i<=30;i++){
-            if(i==10){
+#include<stdio.h>
+int main(){
+    int i=1;
+    while(i<=50){
+        i++;
+        if(i%3==0){
+            if(i==21){
                 continue;
             }
-            if(i%2==0||i%5==0){
-                 printf("%d",i);
-            }
-            
-            
-            
-            if(i==25){
+            if(i==42){
                 break;
             }
+            printf("%d",i);
+            
         }
-        
-        return 0;
-        }
+    }
+    return 0;
+}
