@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main(){
-    int row;
+    int rows;
     int columns;
-    for(row=5;row>=0;row--){
-        for(columns=1;columns<=row;columns++){
+    for(rows=3;rows>=0;rows--){
+        for(columns=1;columns<=6;columns++){
             printf("*");
         }
-        printf("\n");   
+        printf("\n");
     }
     return 0;
 }
